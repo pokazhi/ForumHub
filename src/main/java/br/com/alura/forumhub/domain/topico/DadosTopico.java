@@ -1,6 +1,6 @@
-package com.iaco.forumhub.domain.topico;
+package br.com.alura.forumhub.domain.topico;
 
-import com.iaco.forumhub.domain.resposta.DadosRespostaTopico;
+import br.com.alura.forumhub.domain.resposta.DadosRespostaTopico;
 
 import java.time.LocalDateTime;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.curso;
+package br.com.alura.forumhub.domain.curso;
 
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
@@ -18,7 +18,7 @@ public class Curso {
     private Long id;
     private String nome;
     @Enumerated(EnumType.STRING)
-    private com.iaco.forumhub.domain.curso.Categoria categoria;
+    private br.com.alura.forumhub.domain.curso.Categoria categoria;
 
     public Curso(CursoDTO cursoDTO) {
         this.id = null;

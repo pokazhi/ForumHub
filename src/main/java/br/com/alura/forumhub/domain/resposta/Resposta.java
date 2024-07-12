@@ -1,7 +1,7 @@
-package com.iaco.forumhub.domain.resposta;
+package br.com.alura.forumhub.domain.resposta;
 
-import com.iaco.forumhub.domain.topico.Topico;
-import com.iaco.forumhub.domain.usuario.Usuario;
+import br.com.alura.forumhub.domain.topico.Topico;
+import br.com.alura.forumhub.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;

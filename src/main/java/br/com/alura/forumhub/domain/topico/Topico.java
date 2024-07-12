@@ -1,9 +1,9 @@
-package com.iaco.forumhub.domain.topico;
+package br.com.alura.forumhub.domain.topico;
 
 
-import com.iaco.forumhub.domain.curso.Curso;
-import com.iaco.forumhub.domain.resposta.Resposta;
-import com.iaco.forumhub.domain.usuario.Usuario;
+import br.com.alura.forumhub.domain.curso.Curso;
+import br.com.alura.forumhub.domain.resposta.Resposta;
+import br.com.alura.forumhub.domain.usuario.Usuario;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -31,7 +31,7 @@ public class Topico {
     private LocalDateTime dataCriacao;
 
     @Enumerated(EnumType.STRING)
-    private com.iaco.forumhub.domain.topico.Status status;
+    private br.com.alura.forumhub.domain.topico.Status status;
 
     @ManyToOne(fetch = FetchType.EAGER)
     @JoinColumn(name = "autor_id")
@@ -46,7 +46,7 @@ public class Topico {
 
     private Boolean ativo;
 
-    public void updateTopic(com.iaco.forumhub.domain.topico.DadosAtualizarTopico dados) {
+    public void updateTopic(br.com.alura.forumhub.domain.topico.DadosAtualizarTopico dados) {
         if (dados.titulo() != null && !dados.titulo().isEmpty()) {
             this.titulo = dados.titulo();
         }

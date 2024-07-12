@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.curso;
+package br.com.alura.forumhub.domain.curso;
 
 public enum Categoria {
     PROGRAMACAO,

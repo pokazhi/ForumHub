@@ -1,9 +1,9 @@
-package com.iaco.forumhub.controller;
+package br.com.alura.forumhub.controller;
 
-import com.iaco.forumhub.domain.curso.Curso;
-import com.iaco.forumhub.domain.curso.CursoDTO;
-import com.iaco.forumhub.domain.curso.CursoDetalhes;
-import com.iaco.forumhub.domain.curso.CursoRepositorio;
+import br.com.alura.forumhub.domain.curso.Curso;
+import br.com.alura.forumhub.domain.curso.CursoDTO;
+import br.com.alura.forumhub.domain.curso.CursoDetalhes;
+import br.com.alura.forumhub.domain.curso.CursoRepositorio;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

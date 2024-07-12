@@ -1,6 +1,6 @@
-package com.iaco.forumhub.infra.security;
+package br.com.alura.forumhub.infra.security;
 
-import com.iaco.forumhub.domain.usuario.UsuarioRepository;
+import br.com.alura.forumhub.domain.usuario.UsuarioRepository;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;

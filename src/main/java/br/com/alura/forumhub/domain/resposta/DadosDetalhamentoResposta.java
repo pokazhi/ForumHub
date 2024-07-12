@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.resposta;
+package br.com.alura.forumhub.domain.resposta;
 
 import java.time.LocalDateTime;
 

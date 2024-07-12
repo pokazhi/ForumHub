@@ -1,12 +1,12 @@
-package com.iaco.forumhub.controller;
+package br.com.alura.forumhub.controller;
 
-import com.iaco.forumhub.domain.resposta.DadosDetalhamentoResposta;
-import com.iaco.forumhub.domain.resposta.DadosNovaResposta;
-import com.iaco.forumhub.domain.resposta.Resposta;
-import com.iaco.forumhub.domain.resposta.RespostaRepository;
-import com.iaco.forumhub.domain.topico.TopicoService;
-import com.iaco.forumhub.domain.usuario.AuthenticationService;
-import com.iaco.forumhub.domain.usuario.UsuarioRepository;
+import br.com.alura.forumhub.domain.resposta.DadosDetalhamentoResposta;
+import br.com.alura.forumhub.domain.resposta.DadosNovaResposta;
+import br.com.alura.forumhub.domain.resposta.Resposta;
+import br.com.alura.forumhub.domain.resposta.RespostaRepository;
+import br.com.alura.forumhub.domain.topico.TopicoService;
+import br.com.alura.forumhub.domain.usuario.AuthenticationService;
+import br.com.alura.forumhub.domain.usuario.UsuarioRepository;
 import io.swagger.v3.oas.annotations.security.SecurityRequirement;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;

@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.usuario;
+package br.com.alura.forumhub.domain.usuario;
 
 import jakarta.persistence.*;
 import lombok.*;

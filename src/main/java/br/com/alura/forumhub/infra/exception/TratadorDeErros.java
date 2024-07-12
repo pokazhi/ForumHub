@@ -1,6 +1,6 @@
-package com.iaco.forumhub.infra.exception;
+package br.com.alura.forumhub.infra.exception;
 
-import com.iaco.forumhub.domain.ValidacaoException;
+import br.com.alura.forumhub.domain.ValidacaoException;
 import jakarta.persistence.EntityNotFoundException;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

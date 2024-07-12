@@ -1,10 +1,10 @@
-package com.iaco.forumhub.controller;
+package br.com.alura.forumhub.controller;
 
 
-import com.iaco.forumhub.domain.usuario.DadosAutenticacao;
-import com.iaco.forumhub.domain.usuario.Usuario;
-import com.iaco.forumhub.infra.security.TokenJWTDTO;
-import com.iaco.forumhub.infra.security.TokenService;
+import br.com.alura.forumhub.domain.usuario.DadosAutenticacao;
+import br.com.alura.forumhub.domain.usuario.Usuario;
+import br.com.alura.forumhub.infra.security.TokenJWTDTO;
+import br.com.alura.forumhub.infra.security.TokenService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;

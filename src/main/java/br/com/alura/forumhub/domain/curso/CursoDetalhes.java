@@ -1,10 +1,10 @@
-package com.iaco.forumhub.domain.curso;
+package br.com.alura.forumhub.domain.curso;
 
 public record CursoDetalhes(Long id,
                             String nome,
-                            com.iaco.forumhub.domain.curso.Categoria categoria) {
+                            Categoria categoria) {
 
-    public CursoDetalhes(com.iaco.forumhub.domain.curso.Curso curso) {
+    public CursoDetalhes(Curso curso) {
         this(curso.getId(), curso.getNome(), curso.getCategoria());
     }
 }

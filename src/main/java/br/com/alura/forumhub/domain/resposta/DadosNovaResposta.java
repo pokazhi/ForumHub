@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.resposta;
+package br.com.alura.forumhub.domain.resposta;
 
 import jakarta.validation.Valid;
 import jakarta.validation.constraints.NotBlank;

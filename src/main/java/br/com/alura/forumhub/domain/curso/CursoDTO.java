@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.curso;
+package br.com.alura.forumhub.domain.curso;
 
 import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotNull;
@@ -10,6 +10,6 @@ public record CursoDTO(
 
         @NotNull
         @Valid
-        com.iaco.forumhub.domain.curso.Categoria categoria
+        br.com.alura.forumhub.domain.curso.Categoria categoria
 ) {
 }

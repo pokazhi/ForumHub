@@ -1,11 +1,11 @@
-package com.iaco.forumhub.infra.security;
+package br.com.alura.forumhub.infra.security;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.algorithms.Algorithm;
 import com.auth0.jwt.exceptions.JWTCreationException;
 import com.auth0.jwt.exceptions.JWTVerificationException;
 
-import com.iaco.forumhub.domain.usuario.Usuario;
+import br.com.alura.forumhub.domain.usuario.Usuario;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 

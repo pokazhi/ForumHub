@@ -1,4 +1,4 @@
-package com.iaco.forumhub.infra.security;
+package br.com.alura.forumhub.infra.security;
 
 public record TokenJWTDTO(String token) {
 

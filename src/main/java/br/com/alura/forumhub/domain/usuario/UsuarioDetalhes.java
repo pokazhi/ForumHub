@@ -1,4 +1,4 @@
-package com.iaco.forumhub.domain.usuario;
+package br.com.alura.forumhub.domain.usuario;
 
 public record UsuarioDetalhes (
         Long id,
@@ -7,7 +7,7 @@ public record UsuarioDetalhes (
         String email
 ) {
 
-    public UsuarioDetalhes(com.iaco.forumhub.domain.usuario.Usuario usuario) {
+    public UsuarioDetalhes(br.com.alura.forumhub.domain.usuario.Usuario usuario) {
         this(usuario.getId(), usuario.getNome(), usuario.getSenha(), usuario.getEmail());
     }
 }

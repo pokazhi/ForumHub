@@ -1,7 +1,7 @@
-package com.iaco.forumhub.domain.resposta;
+package br.com.alura.forumhub.domain.resposta;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-public interface RespostaRepository extends JpaRepository<com.iaco.forumhub.domain.resposta.Resposta, Long> {
+public interface RespostaRepository extends JpaRepository<br.com.alura.forumhub.domain.resposta.Resposta, Long> {
 
 }

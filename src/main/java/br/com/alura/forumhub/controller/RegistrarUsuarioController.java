@@ -1,7 +1,7 @@
-package com.iaco.forumhub.controller;
+package br.com.alura.forumhub.controller;
 
-import com.iaco.forumhub.domain.ValidacaoException;
-import com.iaco.forumhub.domain.usuario.*;
+import br.com.alura.forumhub.domain.ValidacaoException;
+import br.com.alura.forumhub.domain.usuario.*;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
